@@ -1,0 +1,45 @@
+.arrow-container{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+.arrow{
+    background-color: black;
+    width: 10%;
+    height: 100%;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.arrow:hover{
+    opacity: 0.3;
+}
+.right{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.left{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.dots{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+.dot{
+    height: 3%;
+    width: 10%;
+    background-color: red;
+    opacity: 0.6;
+    border-radius: 100%;
+    margin-bottom: 10%;
+}
+.clicked{
+    background-color: black;
+    opacity: 0.8;
+}
